@@ -6,7 +6,7 @@ function Login({ onLoginSuccess }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Emi validation leka direct login success ga consider chestam
+     
     onLoginSuccess();
   };
 
@@ -32,3 +32,4 @@ function Login({ onLoginSuccess }) {
 }
 
 export default Login;
+
