@@ -23,11 +23,12 @@ public class StudentController {
         return studentService.saveStudent(student);
     }
 
-    // (Optional) Old generic get-all for admins/testing
+    
     @GetMapping
     public List<Student> getAllStudents() {
         return studentService.getAllStudents();
     }
     
-    // add/update/delete/migrate endpoints as in your original code
+   
 }
+
