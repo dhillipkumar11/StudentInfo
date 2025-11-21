@@ -14,7 +14,7 @@ public class Student {
     private String name;
     private String email;
     private String course;
-    private String userEmail; // ***add this field for user-wise mapping
+    private String userEmail; 
 
     public Student() {}
 
@@ -25,7 +25,6 @@ public class Student {
         this.userEmail = userEmail;
     }
 
-    // Getters and setters for all fields, including userEmail
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     public String getName() { return name; }
@@ -37,4 +36,5 @@ public class Student {
     public String getUserEmail() { return userEmail; }
     public void setUserEmail(String userEmail) { this.userEmail = userEmail; }
 }
+
 
