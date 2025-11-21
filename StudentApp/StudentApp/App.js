@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Login from "./login";  // Login.js file correct location lo undali
-import StudentManagement from "./StudentManagement"; // just created file
+import Login from "./login";   
+import StudentManagement from "./StudentManagement";  
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
